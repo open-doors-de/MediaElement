@@ -633,9 +633,9 @@ const YouTubeIframeRenderer = {
 	}
 };
 
-window.onYouTubePlayerAPIReady = () => {
-	YouTubeApi.iFrameReady();
-};
+// window.onYouTubePlayerAPIReady = () => {
+// 	YouTubeApi.iFrameReady();
+// };
 
 typeChecks.push((url) => /\/\/(www\.youtube|youtu\.?be)/i.test(url) ? 'video/x-youtube' : null);
 

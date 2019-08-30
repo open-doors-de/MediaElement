@@ -3139,9 +3139,9 @@ var YouTubeIframeRenderer = {
 	}
 };
 
-_window2.default.onYouTubePlayerAPIReady = function () {
-	YouTubeApi.iFrameReady();
-};
+// _window2.default.onYouTubePlayerAPIReady = function () {
+// 	YouTubeApi.iFrameReady();
+// };
 
 _media.typeChecks.push(function (url) {
 	return (/\/\/(www\.youtube|youtu\.?be)/i.test(url) ? 'video/x-youtube' : null
